@@ -4,70 +4,58 @@
   color: #252525;
 }
 
-.btn-1 {
-  background-color: #31bbcc;
+/* Base Buttons */
+.btn {
+  background-color: #3dc2be; 
   padding: 11px;
   border-style: solid;
   border-radius: 8px;
   color: white;
   font-size: 18px;
+}
+
+.btn:hover {
+  box-shadow:
+    0 0 0 5px hsl(0, 0%, 90%),
+    0 0 0 10px hsl(0, 0%, 100%);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: #3dc2be;
+  color: #3dc2be;
+}
+
+.btn-outline:hover {
+  background-color: transparent;
+    box-shadow:
+    0 0 0 5px hsl(0, 0%, 90%),
+    0 0 0 10px hsl(0, 0%, 100%);
+}
+
+/* Button Color Variations */
+.btn-1 {
+  background-color: #31bbcc;
 }
 
 .btn-1:hover {
   background-color: #3cdaed;
-    box-shadow:
-    0 0 0 5px hsl(0, 0%, 90%),
-    0 0 0 10px hsl(0, 0%, 100%);
 }
 
 .btn-2 {
   background-color: #3b8fdf;
-  padding: 11px;
-  border-style: solid;
-  border-radius: 8px;
-  color: white;
-  font-size: 18px;
 }
 
 .btn-2:hover {
   background-color: #45a0f5;
-    box-shadow:
-    0 0 0 5px hsl(0, 0%, 90%),
-    0 0 0 10px hsl(0, 0%, 100%);
 }
 
-
-.btn-1-outline {
-  background-color: transparent;
-  padding: 11px;
-  border-style: solid;
-  border-color: #3cdaed;
-  border-radius: 8px;
-  color: #3cdaed;
-  font-size: 18px;
+.btn-outline.btn-1 {
+  border-color: #31bbcc;
+  color: #31bbcc;
 }
 
-.btn-1-outline:hover {
-  background-color: transparent;
-    box-shadow:
-    0 0 0 5px hsl(0, 0%, 90%),
-    0 0 0 10px hsl(0, 0%, 100%);
-}
-
-
-.btn-2-outline {
-  background-color: transparent;
-  padding: 11px;
-  border-style: solid;
+.btn-outline.btn-2 {
   border-color: #3b8fdf;
-  border-radius: 8px;
   color: #3b8fdf;
-  font-size: 18px;
-}
-
-.btn-2-outline:hover {
-  background-color: transparent;
-    box-shadow:
-    0 0 0 5px hsl(0, 0%, 90%),
-    0 0 0 10px hsl(0, 0%, 100%);
 }
