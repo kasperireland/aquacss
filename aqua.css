@@ -51,11 +51,13 @@
 }
 
 .btn-outline.btn-1 {
+  background-color: transparent;
   border-color: #31bbcc;
   color: #31bbcc;
 }
 
 .btn-outline.btn-2 {
+  background-color: transparent;
   border-color: #3b8fdf;
   color: #3b8fdf;
 }
