@@ -24,7 +24,7 @@
 
 /* When button is clicked */
 .btn:active {
-    box-shadow: 5px 10px;
+    filter: drop-shadow(30px 10px 4px #4444dd);
 }
 
 /* When mouse hovers over button */
