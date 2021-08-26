@@ -21,6 +21,10 @@
   font-size: 18px;
 }
 
+.btn:active {
+  padding:30px;
+}
+
 .btn:hover {
   box-shadow:
     0 0 0 5px hsl(0, 0%, 90%),
