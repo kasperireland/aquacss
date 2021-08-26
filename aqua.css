@@ -21,16 +21,19 @@
   font-size: 18px;
 }
 
+/* When button is clicked */
 .btn:active {
   font-size:15px;
 }
 
+/* When mouse hovers over button */
 .btn:hover {
   box-shadow:
     0 0 0 5px hsl(0, 0%, 90%),
     0 0 0 10px hsl(0, 0%, 100%);
 }
 
+/* Outlined buttons (border, no fill) */
 .btn-outline {
   background-color: transparent;
   border-color: #3dc2be;
