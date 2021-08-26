@@ -5,11 +5,17 @@
 }
 
 button {
-  background-color: #2b85ba;
+  background-color: #31bbcc;
   padding: 15px;
   border-style: solid;
-  border-color: #3193cc;
   border-radius: 8px;
   color: white;
   font-size: 20px;
+}
+
+button:hover {
+  background-color: #3cdaed;
+    box-shadow:
+    0 0 0 5px hsl(0, 0%, 90%),
+    0 0 0 10px hsl(0, 0%, 100%);
 }
