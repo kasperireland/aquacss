@@ -6,15 +6,67 @@
 
 .btn-1 {
   background-color: #31bbcc;
-  padding: 15px;
+  padding: 11px;
   border-style: solid;
   border-radius: 8px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn-1:hover {
   background-color: #3cdaed;
+    box-shadow:
+    0 0 0 5px hsl(0, 0%, 90%),
+    0 0 0 10px hsl(0, 0%, 100%);
+}
+
+.btn-2 {
+  background-color: #3b8fdf;
+  padding: 11px;
+  border-style: solid;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+.btn-2:hover {
+  background-color: #45a0f5;
+    box-shadow:
+    0 0 0 5px hsl(0, 0%, 90%),
+    0 0 0 10px hsl(0, 0%, 100%);
+}
+
+
+.btn-1-outline {
+  background-color: transparent;
+  padding: 11px;
+  border-style: solid;
+  border-color: #3cdaed;
+  border-radius: 8px;
+  color: #3cdaed;
+  font-size: 18px;
+}
+
+.btn-1-outline:hover {
+  background-color: transparent;
+    box-shadow:
+    0 0 0 5px hsl(0, 0%, 90%),
+    0 0 0 10px hsl(0, 0%, 100%);
+}
+
+
+.btn-2-outline {
+  background-color: transparent;
+  padding: 11px;
+  border-style: solid;
+  border-color: #3b8fdf;
+  border-radius: 8px;
+  color: #3b8fdf;
+  font-size: 18px;
+}
+
+.btn-2-outline:hover {
+  background-color: transparent;
     box-shadow:
     0 0 0 5px hsl(0, 0%, 90%),
     0 0 0 10px hsl(0, 0%, 100%);
