@@ -4,7 +4,7 @@
   color: #252525;
 }
 
-button {
+.btn-1 {
   background-color: #31bbcc;
   padding: 15px;
   border-style: solid;
@@ -13,7 +13,7 @@ button {
   font-size: 20px;
 }
 
-button:hover {
+.btn-1:hover {
   background-color: #3cdaed;
     box-shadow:
     0 0 0 5px hsl(0, 0%, 90%),
