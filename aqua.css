@@ -34,29 +34,29 @@
 }
 
 /* Button Color Variations */
-.btn-1 {
+.btn-primary {
   background-color: #31bbcc;
 }
 
-.btn-1:hover {
+.btn-primary:hover {
   background-color: #3cdaed;
 }
 
-.btn-2 {
+.btn-secondary {
   background-color: #3b8fdf;
 }
 
-.btn-2:hover {
+.btn-secondary:hover {
   background-color: #45a0f5;
 }
 
-.btn-outline.btn-1 {
+.btn-outline.btn-primary {
   background-color: transparent;
   border-color: #31bbcc;
   color: #31bbcc;
 }
 
-.btn-outline.btn-2 {
+.btn-outline.btn-secondary {
   background-color: transparent;
   border-color: #3b8fdf;
   color: #3b8fdf;
