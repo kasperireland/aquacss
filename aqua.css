@@ -24,7 +24,7 @@
 
 /* When button is clicked */
 .btn:active {
-    filter: drop-shadow(10px 5px 2px #4444dd);
+  font-size: 17.5px;
 }
 
 /* When mouse hovers over button */
