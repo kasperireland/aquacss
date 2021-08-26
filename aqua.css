@@ -19,7 +19,7 @@
   border-radius: 8px;
   color: white;
   font-size: 18px;
-  position: static;
+  position: fixed;
 }
 
 /* When button is clicked */
