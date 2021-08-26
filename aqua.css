@@ -24,7 +24,7 @@
 
 /* When button is clicked */
 .btn:active {
-  font-size:17px;
+    box-shadow: 5px 10px;
 }
 
 /* When mouse hovers over button */
